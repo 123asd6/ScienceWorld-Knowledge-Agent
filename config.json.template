@@ -1,0 +1,7 @@
+{
+  "api_type": "openai",
+  "model_name": "gpt-4-turbo",
+  "temperature": 0.1,
+  "max_steps": 50,
+  "api_key": "YOUR_OPENAI_API_KEY_HERE_OR_USE_ENV_VAR"
+}

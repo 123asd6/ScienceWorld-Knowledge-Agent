@@ -1,0 +1,14 @@
+name: agent_memory
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - openjdk=11  # ScienceWorld 底层基于 Java，必须配置 JDK
+  - pip:
+    - scienceworld>=1.1.3
+    - openai>=1.0.0
+    - langchain>=0.1.0
+    - faiss-cpu>=1.7.4  # 用于本地轻量化 RAG 记忆检索的向量库
+    - tiktoken
